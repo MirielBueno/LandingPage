@@ -1,0 +1,132 @@
+*{
+      font-family: monospace;
+}
+body{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: white;
+    font-size: 1.7rem;
+    background-color: #150463;
+    text-align: center;
+    padding: 0 20px; 
+}
+header img{
+    width: 170px;
+    border-radius: 50%;
+    border: 2px solid #ebeb4e;
+    object-fit: cover;
+}
+.nome{
+    user-select: none;
+    flex : 1;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    background-color: #150463;
+}
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    font-size: 2.5rem;
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.main-nav a:hover{
+    background-color: #ebeb4e;
+    color: #150463;
+    transition: .5s;
+    border-radius: 5px;
+}
+.subtitulo {
+    user-select: none;
+    background-color: #150463;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-top: 2px solid #ebeb4e;
+    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image-slice: 1;
+}
+.subtitulo h2{
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    height: auto;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #150463;
+    text-align: left; 
+    padding: 40px 60px; 
+    line-height: 1.6;
+}
+footer {
+    user-select: none;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #150463;
+    color: white;
+    border-top: 2px solid #ebeb4e;
+    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image-slice: 1;
+    font-size: 1rem;
+}
+header div.botao-home{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    user-select: none;
+}
+header div.botao-home a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1.2rem;   
+}
+header div.botao-home a:hover{
+    background-color: #ebeb4e;
+    color: #150463;
+    transition: 0.3s;
+}
+.breve img{
+    display: flex;
+    width: 30%;
+    margin:0px auto;   
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.breve{
+    border-top: 2px solid #ebeb4e;
+    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image-slice: 1;
+    background-color: #150463;
+}
+.logos{
+    border-top: 2px solid #ebeb4e;
+    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image-slice: 1;
+}
+.logos img{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-top:#ebeb4e
+}
