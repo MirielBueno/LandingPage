@@ -44,8 +44,8 @@ header img{
     font-size: 1.5rem;
 }
 .main-nav a:hover{
-    background-color: #ebeb4e;
-    color: #150463;
+    background: #110252;
+    border: 1px;
     transition: .5s;
     border-radius: 5px;
 }
@@ -88,7 +88,7 @@ footer {
 header div.botao-home{
     position: absolute;
     top: 20px;
-    left: 20px;
+    right: 20px;
     user-select: none;
 }
 header div.botao-home a{
@@ -99,10 +99,11 @@ header div.botao-home a{
     font-size: 1.2rem;   
 }
 header div.botao-home a:hover{
-    background-color: #ebeb4e;
-    color: #150463;
-    transition: 0.3s;
-}
+    background: #110252;
+    border: 1px;
+    transition: .5s;
+    border-radius: 5px;
+}   
 .breve img{
     display: flex;
     width: 30%;
