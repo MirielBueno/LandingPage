@@ -1,5 +1,7 @@
 *{
-      font-family: monospace;
+    font-family: monospace;
+    background-color: #1B3C53;
+    color: #D2C1B6;
 }
 body{  
     margin: 0;
@@ -11,16 +13,15 @@ header{
     justify-content: center;
     align-items: center;
     height: 50vh;
-    color: white;
     font-size: 1.7rem;
-    background-color: #150463;
+    background-color: #1B3C53;
     text-align: center;
     padding: 0 20px; 
 }
 header img{
     width: 170px;
     border-radius: 50%;
-    border: 2px solid #ebeb4e;
+    border: 2px solid #D2C1B6   ;
     object-fit: cover;
 }
 .nome{
@@ -29,7 +30,7 @@ header img{
     text-align: center;
     font-size: 2.8rem;
     font-weight: bold;
-    background-color: #150463;
+    background-color: #1B3C53;
 }
 .main-nav{
     display: flex;
@@ -39,24 +40,22 @@ header img{
 }
 .main-nav a{
     text-decoration: none;
-    color: white;
     padding: 10px;
     font-size: 1.5rem;
 }
 .main-nav a:hover{
-    background: #110252;
+    background: #234C6A;
     border: 1px;
     transition: .5s;
     border-radius: 5px;
 }
 .subtitulo {
     user-select: none;
-    background-color: #150463;
-    color: white;
+    background-color: #1B3C53;
     padding: 10px 20px;
     font-size: 1.3rem;
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image:  linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
     border-image-slice: 1;
 }
 .subtitulo h2{
@@ -67,9 +66,8 @@ main{
     justify-content: flex-start;
     align-items: flex-start; 
     height: auto;
-    color: white;
     font-size: 1.4rem;
-    background-color: #150463;
+    background-color: #1B3C53;
     text-align: left; 
     padding: 40px 60px; 
     line-height: 1.6;
@@ -78,10 +76,9 @@ footer {
     user-select: none;
     text-align: center;
     padding: 15px 0;
-    background-color: #150463;
-    color: white;
+    background-color: #1B3C53;
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image: linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
     border-image-slice: 1;
     font-size: 1rem;
 }
@@ -93,13 +90,12 @@ header div.botao-home{
 }
 header div.botao-home a{
     text-decoration: none;
-    color: white;
     padding: 8px 12px;
     border-radius: 5px;
     font-size: 1.2rem;   
 }
 header div.botao-home a:hover{
-    background: #110252;
+    background: #234C6A;
     border: 1px;
     transition: .5s;
     border-radius: 5px;
@@ -114,20 +110,25 @@ header div.botao-home a:hover{
 }
 .breve{
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image: linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
     border-image-slice: 1;
-    background-color: #150463;
+    background-color: #1B3C53;
 }
 .logos{
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(to right, #ebeb4e, #150463);
+    border-image: linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
     border-image-slice: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .logos img{
+}
+.logos a{
+    text-decoration: none;
+}
+.logos a img{
+    padding: 20px;
     width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border-top:#ebeb4e
+    height: auto;
 }
