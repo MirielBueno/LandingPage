@@ -12,11 +12,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 20rem;
     font-size: 1.7rem;
     background-color: #1B3C53;
     text-align: center;
-    padding: 0 20px; 
+    padding: 0 50px; 
 }
 header img{
     width: 170px;
@@ -50,16 +50,16 @@ header img{
     border-radius: 5px;
 }
 .subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     user-select: none;
     background-color: #1B3C53;
     padding: 10px 20px;
     font-size: 1.3rem;
     border-top: 2px solid #ebeb4e;
-    border-image:  linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
+    border-image:  linear-gradient(90deg, transparent 0%, #7C8194 50%, transparent 100%) 1;;
     border-image-slice: 1;
-}
-.subtitulo h2{
-    margin: 0;
 }
 main{
     display: flex;
@@ -68,7 +68,7 @@ main{
     height: auto;
     font-size: 1.4rem;
     background-color: #1B3C53;
-    text-align: left; 
+    text-align: center; 
     padding: 40px 60px; 
     line-height: 1.6;
 }
@@ -78,21 +78,21 @@ footer {
     padding: 15px 0;
     background-color: #1B3C53;
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
+    border-image: linear-gradient(90deg, transparent 0%, #7C8194 50%, transparent 100%) 1;;
     border-image-slice: 1;
     font-size: 1rem;
 }
 header div.botao-home{
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 20px;
     user-select: none;
 }
 header div.botao-home a{
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 1px 6px;
     border-radius: 5px;
-    font-size: 1.2rem;   
+    font-size: 3.5rem;   
 }
 header div.botao-home a:hover{
     background: #234C6A;
@@ -110,13 +110,13 @@ header div.botao-home a:hover{
 }
 .breve{
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
+    border-image: linear-gradient(90deg, transparent 0%, #7C8194 50%, transparent 100%) 1;
     border-image-slice: 1;
     background-color: #1B3C53;
 }
 .logos{
     border-top: 2px solid #ebeb4e;
-    border-image: linear-gradient(90deg, #D2C1B6 0%, #7C8194 50%, #1B3C53 100%);
+    border-image: linear-gradient(90deg, transparent 0%, #7C8194 50%, transparent 100%) 1;
     border-image-slice: 1;
     display: flex;
     justify-content: space-evenly;
