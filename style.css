@@ -122,8 +122,6 @@ header div.botao-home a:hover{
     justify-content: space-evenly;
     align-items: center;
 }
-.logos img{
-}
 .logos a{
     text-decoration: none;
 }
@@ -131,4 +129,97 @@ header div.botao-home a:hover{
     padding: 20px;
     width: 100px;
     height: auto;
+}
+.listaZ{
+    font-size: 150%;
+    width: 70%;
+    margin: 2% auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    user-select: none;
+}
+.listaZ details {
+    padding: auto;
+    cursor: pointer;
+    transition: background 0.5s;
+    user-select: none;
+}
+.listaZ summary{
+    background: #234C6A;
+    padding: 1%;
+    list-style: none;
+    outline-offset: 1px;
+    position: relative;
+}
+.listaZ summary::after {
+    padding-right: 1%; 
+    content: "▶";
+    position: absolute;
+    right: 0;
+    transition: transform 0.6s;
+}
+.listaZ details[open] summary::after {
+  transform: rotate(90deg);
+}
+.listaZ details p { 
+    padding: 1%;  
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.caixa-whats {
+    width: 50%;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #1B3C53;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+    border-top: 2px solid #ebeb4e;
+    border-image: linear-gradient(90deg, transparent 0%, #7C8194 50%, transparent 100%) 1;
+    border-image-slice: 1;
+}
+.caixa-whats h2 {
+    color: #D2C1B6;
+    margin-bottom: 10px;
+}
+.caixa-whats p {
+    color: #D2C1B6;
+    margin-bottom: 20px;
+}
+.caixa-whats textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 2px solid #D2C1B6;
+    border-radius: 8px;
+    background-color: #234C6A;
+    color: #D2C1B6;
+    font-family: monospace;
+    font-size: 1rem;
+    resize: none;
+    transition: all 0.3s ease;
+}
+
+.caixa-whats textarea:focus {
+    outline: none;
+    border-color: #ebeb4e;
+    box-shadow: 0 0 10px #ebeb4e60;
+}
+
+.caixa-whats button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #234C6A;
+    color: #D2C1B6;
+    border: 2px solid #D2C1B6;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.caixa-whats button:hover {
+    background-color: #326083;
+    border-color: #ebeb4e;
+    color: #ebeb4e;
 }

@@ -13,6 +13,26 @@
         <a href="index.html">⌂</a>
     </div>
 </header> 
+    <div class="caixa-whats">
+        <h2>Envie uma mensagem</h2>
+        <p>Digite abaixo e envie direto para meu WhatsApp:</p>
+
+        <form onsubmit="return enviarWhats()">
+            <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <button type="submit">Enviar pelo WhatsApp</button>
+        </form>
+    </div>
+
+<script>
+function enviarWhats() {
+    const msg = document.getElementById("mensagem").value.trim();
+    if (msg === "") return false;
+    const url = "https://wa.me/5547997896183?text=" + encodeURIComponent(msg);
+    window.open(url, "_blank");
+    return false;
+}
+</script>
+
     <div class="logos">
     <a href="https://github.com/MirielBueno" target="_blank">
         <img src="imgs/github.png" alt="logo github">
@@ -30,7 +50,7 @@
 <body>
 
     <footer>
-        <p>Feito por: Miriel Bueno de Brum | Joiville SC | 2025</p>
+        <p>Miriel Bueno de Brum | Joiville SC | 2025</p>
     </footer>     
 </body>
 </html>
