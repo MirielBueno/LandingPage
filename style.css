@@ -129,6 +129,12 @@ header div.botao-home a:hover{
     padding: 20px;
     width: 100px;
     height: auto;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.logos a img:hover{
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 .listaZ{
     font-size: 150%;
@@ -175,18 +181,10 @@ header div.botao-home a:hover{
     background-color: #1B3C53;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.25);
-    border-top: 2px solid #ebeb4e;
+    border-top: 2px solid #D2C1B6;
     border-image: linear-gradient(90deg, transparent 0%, #7C8194 50%, transparent 100%) 1;
-    border-image-slice: 1;
 }
-.caixa-whats h2 {
-    color: #D2C1B6;
-    margin-bottom: 10px;
-}
-.caixa-whats p {
-    color: #D2C1B6;
-    margin-bottom: 20px;
-}
+
 .caixa-whats textarea {
     width: 100%;
     height: 150px;
@@ -197,14 +195,20 @@ header div.botao-home a:hover{
     color: #D2C1B6;
     font-family: monospace;
     font-size: 1rem;
-    resize: none;
+
     transition: all 0.3s ease;
+}
+.caixa-whats textarea{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .caixa-whats textarea:focus {
     outline: none;
-    border-color: #ebeb4e;
-    box-shadow: 0 0 10px #ebeb4e60;
+    border-color: #D2C1B6;
+    box-shadow: 0 0 10px black;
 }
 
 .caixa-whats button {
@@ -218,8 +222,9 @@ header div.botao-home a:hover{
     cursor: pointer;
     transition: 0.3s;
 }
+
 .caixa-whats button:hover {
     background-color: #326083;
-    border-color: #ebeb4e;
-    color: #ebeb4e;
+    border-color: #D2C1B6;
 }
+
